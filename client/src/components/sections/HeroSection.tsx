@@ -7,7 +7,7 @@ const HeroSection = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   
-  const words = ["outthink", "outpace", "outperform"];
+  const words = ["optimize", "transform", "excel"];
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -51,7 +51,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            We unite <span className="text-secondary font-semibold">expertise</span> and <span className="text-secondary font-semibold">technology</span>
+            We turn your <span className="text-secondary font-semibold">IT challenges</span> into opportunities
           </motion.h2>
           
           <motion.h1 
@@ -85,8 +85,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Transform your business with cutting-edge solutions that drive innovation, 
-            enhance efficiency, and deliver sustainable competitive advantages in today's dynamic marketplace.
+            With decades of expertise, SBS Corp delivers tailored solutions and hands-on support to drive efficiency, innovation, and sustainable growth for your business.
           </motion.p>
           
           <motion.div 
@@ -95,8 +94,8 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <a href="#" className="bg-transparent border border-white text-white font-normal px-8 py-3 transition-colors hover:bg-white hover:text-[#1d2330]">
-              Skip the intro
+            <a href="mailto:bizdev@mysbscorp.com" className="bg-transparent border border-white text-white font-normal px-8 py-3 transition-colors hover:bg-white hover:text-[#1d2330]">
+              Let’s solve your challenges
             </a>
           </motion.div>
         </motion.div>
