@@ -157,8 +157,7 @@ const InsightsCarousel = () => {
             >
               STAY INFORMED
             </motion.span>
-            
-            <h2 className="text-4xl md:text-5xl font-light text-[#2d2d2d] mb-6 overflow-hidden">
+         <h2 className="text-4xl md:text-5xl font-light text-[#2d2d2d] mb-6 leading-tight">
               {letters.map((letter, index) => (
                 <motion.span 
                   key={index}
@@ -175,7 +174,6 @@ const InsightsCarousel = () => {
                 </motion.span>
               ))}
             </h2>
-            
             <motion.div 
               className="h-1 w-16 bg-secondary mb-6"
               variants={lineVariant}
